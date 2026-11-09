@@ -6,7 +6,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node \"${PLUGIN_ROOT}/scripts/guard-destructive.mjs\"",
+            "command": "node \"./scripts/guard-destructive.mjs\"",
             "timeout": 10
           }
         ]
